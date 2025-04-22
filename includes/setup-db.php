@@ -1,6 +1,6 @@
 <?php
 // setup-db.php
-include 'includes/db.php';
+include 'db.php';
 // SQL-запрос для создания таблицы статей
 $query = <<<SQL
 CREATE TABLE IF NOT EXISTS articles (
